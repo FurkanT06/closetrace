@@ -1,0 +1,882 @@
+/* Readable financial data and secondary copy at standard browser zoom. */
+@media (max-width: 680px) {
+  .sidebar {
+    visibility: hidden;
+  }
+  .mobile-open .sidebar {
+    visibility: visible;
+  }
+  .attention-banner > button {
+    flex: 0 0 calc(100% - 40px);
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 0;
+  }
+}
+:root {
+  --muted: #6f7d65;
+}
+.nav-item {
+  font-size: 12px;
+}
+.workspace-current b {
+  font-size: 12px;
+}
+.workspace-current small {
+  font-size: 9px;
+}
+.nav-section {
+  font-size: 9px;
+}
+.sidebar-profile b {
+  font-size: 11px;
+}
+.sidebar-profile small {
+  font-size: 9px;
+}
+.sidebar-guide h3 {
+  font-size: 12px;
+}
+.sidebar-guide p {
+  font-size: 10px;
+}
+.sidebar-guide button {
+  font-size: 10px;
+}
+.topbar-left {
+  font-size: 11px;
+}
+.global-search {
+  font-size: 11px;
+}
+.workspace-tag {
+  font-size: 9px;
+}
+.page-heading h1 {
+  font-size: 32px;
+}
+.eyebrow {
+  font-size: 9px;
+  color: #7f916b;
+}
+.page-description {
+  font-size: 12px;
+  color: #7b856f;
+}
+.button {
+  font-size: 12px;
+}
+.metric-label {
+  font-size: 11px;
+  color: #6e7d63;
+}
+.metric-value {
+  font-size: 35px;
+}
+.metric-card p {
+  font-size: 9px;
+  color: #879173;
+}
+.attention-banner b {
+  font-size: 12px;
+  color: #486439;
+}
+.attention-banner p {
+  font-size: 10px;
+  color: #7b8c64;
+}
+.attention-banner > button {
+  font-size: 11px;
+}
+.card-heading h2 {
+  font-size: 14px;
+}
+.card-heading p {
+  font-size: 10px;
+  color: #899674;
+}
+.card-heading > .text-link {
+  font-size: 10px;
+}
+.segmented-tabs button {
+  font-size: 10px;
+}
+.segmented-tabs button > span {
+  font-size: 9px;
+}
+.table-toolbar-hint {
+  font-size: 9px;
+}
+.review-table th {
+  font-size: 9px;
+  color: #83916f;
+}
+.business-link b {
+  font-size: 12px;
+}
+.business-link small {
+  font-size: 9px;
+  color: #8b9877;
+}
+.badge {
+  font-size: 9px;
+}
+.table-amount {
+  font-size: 12px;
+}
+.amount-difference {
+  font-size: 8px;
+  color: #a18b4e;
+}
+.table-date {
+  font-size: 10px;
+  color: #81916d;
+}
+.table-bottom {
+  font-size: 9px;
+  color: #899774;
+}
+.readiness-chart small {
+  font-size: 9px;
+  color: #8a9875;
+}
+.readiness-legend > div {
+  font-size: 10px;
+  color: #7b8a65;
+}
+.readiness-legend b {
+  font-size: 11px;
+}
+.evidence-coverage > span {
+  font-size: 10px;
+  color: #809366;
+}
+.evidence-coverage > span > b {
+  font-size: 11px;
+}
+.evidence-coverage small {
+  font-size: 8px;
+  color: #899c73;
+}
+.deadline-row > span:nth-child(2) > b {
+  font-size: 10px;
+}
+.deadline-row > span:nth-child(2) > small {
+  font-size: 8px;
+  color: #899d72;
+}
+.deadline-date small {
+  font-size: 7px;
+}
+.insight-card .eyebrow {
+  font-size: 7px;
+}
+.insight-card > p:not(.eyebrow) {
+  font-size: 10px;
+  color: #a6ba98;
+}
+.insight-card > button {
+  font-size: 10px;
+}
+.activity-row > div > p:first-child {
+  font-size: 11px;
+}
+.activity-date {
+  font-size: 9px;
+  color: #8d9e75;
+}
+.activity-case {
+  font-size: 9px;
+  color: #879e69;
+}
+.activity-detail {
+  color: #7e9368;
+}
+.app-footer {
+  font-size: 9px;
+  color: #9aa887;
+}
+.app-footer > span:last-child {
+  font-size: 8px;
+}
+.library-stats {
+  color: #7d9664;
+}
+.document-tile > small {
+  font-size: 9px;
+  color: #8ba270;
+}
+.source-tag {
+  font-size: 9px;
+  color: #839d67;
+}
+.document-bottom {
+  font-size: 9px;
+  color: #8b9f70;
+}
+.document-bottom button {
+  font-size: 10px;
+}
+.document-excerpt {
+  color: #8aa36e;
+}
+.document-tile > .text-link {
+  font-size: 10px;
+  color: #809967;
+}
+.page-footnote {
+  color: #859e6e;
+}
+.quiet-empty {
+  color: #8aa36f;
+}
+.settings-row p {
+  color: #819a6a;
+}
+.settings-note p {
+  color: #859f6b;
+}
+.settings-note b {
+  color: #62854a;
+}
+.search-input input {
+  font-size: 12px;
+}
+.select-label select {
+  font-size: 11px;
+  color: #76935e;
+}
+.select-label span {
+  font-size: 10px;
+}
+.review-back {
+  font-size: 10px;
+  color: #95a97e;
+}
+.review-back > button {
+  font-size: 11px;
+}
+.case-title-line h1 {
+  font-size: 28px;
+}
+.case-business p {
+  font-size: 11px;
+  color: #8aa173;
+}
+.case-meta,
+.case-meta > button {
+  font-size: 10px;
+  color: #8da675;
+}
+.case-meta b {
+  color: #7e995f;
+}
+.case-summary-item > button {
+  font-size: 10px;
+  color: #859c6a;
+}
+.case-summary-item > small {
+  font-size: 8px;
+  color: #90a477;
+}
+.case-summary-item > b {
+  font-size: 28px;
+}
+.case-summary-item.has-variance > small {
+  color: #a38c50;
+}
+.case-tabs > button {
+  font-size: 12px;
+  color: #89a16f;
+}
+.case-tabs > button > span {
+  font-size: 9px;
+}
+.case-tab-right {
+  font-size: 9px;
+  color: #97ad80;
+}
+.calculation-label {
+  font-size: 8px;
+  color: #8aa56e;
+}
+.calculation-description p {
+  font-size: 10px;
+  color: #8da774;
+}
+.calculation-table th {
+  font-size: 9px;
+  color: #8da575;
+}
+.calculation-table td {
+  font-size: 11px;
+  color: #839f67;
+}
+.calculation-table td:first-child {
+  color: #66884a;
+}
+.source-chip {
+  font-size: 9px;
+  color: #8aa76d;
+}
+.calculation-table .subtotal-row td {
+  font-size: 10px;
+  color: #85a06b;
+}
+.calculation-table .net-row td {
+  font-size: 12px;
+  color: #5c7f41;
+}
+.calculation-table .target-row td {
+  font-size: 11px;
+  color: #7c9a60;
+}
+.calculation-table .calculated-refund td {
+  font-size: 12px;
+  color: #628744;
+}
+.calculation-note p {
+  font-size: 9px;
+  color: #91a87a;
+}
+.payment-flow small {
+  font-size: 9px;
+  color: #8da477;
+}
+.payment-flow button {
+  font-size: 8px;
+  color: #8ba773;
+}
+.payment-step {
+  font-size: 9px;
+  color: #a1b488;
+}
+.payment-result {
+  font-size: 10px;
+  color: #7e9b61;
+}
+.payment-result.difference {
+  color: #a68e52;
+}
+.counterparties small {
+  font-size: 7px;
+  color: #99ae7f;
+}
+.counterparties b {
+  font-size: 9px;
+  color: #819d64;
+}
+.policy-links b {
+  font-size: 10px;
+  color: #7c9c5e;
+}
+.policy-links small {
+  font-size: 9px;
+  color: #98ad80;
+}
+.policy-card > p {
+  font-size: 9px;
+  color: #97ad81;
+}
+.finding-title b {
+  font-size: 11px;
+}
+.finding > p {
+  font-size: 10px;
+  color: #a18e5e;
+}
+.finding-actions button {
+  font-size: 8px;
+  color: #9c864a;
+}
+.finding.blocking .finding-title {
+  color: #958362;
+}
+.finding.blocking > p {
+  color: #a09375;
+}
+.finding.resolved .finding-title {
+  color: #80a05e;
+}
+.finding.resolved > p {
+  color: #98ac7f;
+}
+.resolution-note b {
+  font-size: 8px;
+  color: #89a569;
+}
+.resolution-note p {
+  font-size: 9px;
+  color: #8ca975;
+}
+.checklist-row b {
+  font-size: 10px;
+  color: #7f9d64;
+}
+.checklist-row small {
+  font-size: 8px;
+  color: #9caf82;
+}
+.decision-card legend {
+  font-size: 9px;
+  color: #9bb07e;
+}
+.decision-option b {
+  font-size: 10px;
+  color: #839f66;
+}
+.decision-option small {
+  font-size: 8px;
+  color: #9db182;
+}
+.decision-card .form-field > span {
+  font-size: 9px;
+  color: #8ca774;
+}
+.decision-card textarea {
+  font-size: 10px;
+  color: #789660;
+}
+.decision-blocked {
+  font-size: 8px;
+  color: #a18e59;
+}
+.decision-card .button {
+  font-size: 11px;
+  min-height: 38px;
+}
+.decision-footnote {
+  font-size: 8px;
+  color: #9db18a;
+}
+.recorded-decision b {
+  font-size: 10px;
+  color: #809d62;
+}
+.recorded-decision p {
+  font-size: 8px;
+  color: #94ac7c;
+}
+.case-bottom-note,
+.case-bottom-note > button {
+  font-size: 9px;
+  color: #91aa7a;
+}
+.section-intro p {
+  font-size: 11px;
+  color: #8ba373;
+}
+.inline-note {
+  color: #8ba975;
+}
+.case-timeline small {
+  font-size: 9px;
+  color: #91aa79;
+}
+.case-timeline p {
+  font-size: 11px;
+  color: #8aa66e;
+}
+.comment b {
+  font-size: 11px;
+}
+.comment small {
+  font-size: 8px;
+  color: #98b17d;
+}
+.comment p {
+  font-size: 11px;
+  color: #83a266;
+}
+.comment-form > label {
+  font-size: 11px;
+  color: #8ba66e;
+}
+.attachment-row small {
+  font-size: 9px;
+  color: #8ba675;
+}
+.modal-header > div > p:not(.eyebrow) {
+  color: #8da873;
+}
+.form-field > span {
+  font-size: 11px;
+  color: #7d9d62;
+}
+.form-field > input,
+.form-field > select,
+.form-field > textarea {
+  font-size: 12px;
+  color: #688b4b;
+}
+.form-field > small {
+  font-size: 10px;
+  color: #96ae80;
+}
+.form-intro {
+  font-size: 10px;
+  color: #8fa975;
+}
+.form-confirmations > label {
+  color: #96ad7f;
+  font-size: 10px;
+}
+.form-confirmations b {
+  color: #7f9f63;
+  font-size: 11px;
+}
+.account-form-header {
+  font-size: 9px;
+  color: #99b081;
+}
+.account-form-row > input,
+.account-form-row > select,
+.account-include > input:not([type='checkbox']) {
+  font-size: 10px;
+  color: #7f9f61;
+}
+.exception-summary p {
+  font-size: 11px;
+  color: #9d8b5b;
+}
+.source-meta {
+  font-size: 9px;
+  color: #92ad78;
+}
+.source-lines p {
+  font-size: 11px;
+  color: #78975e;
+}
+.source-lines > div > span {
+  font-size: 9px;
+  color: #abbf95;
+}
+.source-paper > h3 {
+  color: #688c4e;
+}
+.source-footer {
+  color: #91ad78;
+}
+.source-edit-note > p {
+  color: #89a76d;
+}
+.source-edit .source-text-editor {
+  font-size: 11px;
+  color: #789a5a;
+}
+.upload-dropzone > b {
+  color: #7d9f60;
+}
+.upload-dropzone > p {
+  color: #99b181;
+}
+.upload-explainer p {
+  color: #8aa76c;
+}
+.exception-summary b {
+  color: #9c8245;
+}
+.body-copy {
+  color: #87a56c;
+}
+.guide-content article p {
+  color: #89a86c;
+}
+.guide-content h3 {
+  color: #739858;
+}
+.guide-bottom {
+  color: #87a669;
+}
+.signin-benefits b {
+  color: #7c9d5f;
+}
+.signin-benefits p {
+  color: #8ba970;
+}
+.command-results > button b {
+  color: #789a59;
+}
+.command-results > button small {
+  color: #9ab481;
+}
+@media (max-width: 1250px) and (min-width: 901px) {
+  .business-link b {
+    font-size: 11px;
+  }
+  .business-link small {
+    font-size: 8px;
+  }
+  .badge {
+    font-size: 8px;
+  }
+  .table-amount {
+    font-size: 11px;
+  }
+  .table-date {
+    font-size: 9px;
+  }
+  .metric-label {
+    font-size: 10px;
+  }
+  .metric-card p {
+    font-size: 8px;
+  }
+  .payment-flow b {
+    font-size: 19px;
+  }
+  .payment-flow small {
+    font-size: 8px;
+  }
+  .payment-flow button {
+    font-size: 7px;
+  }
+}
+@media (max-width: 680px) {
+  .nav-item {
+    font-size: 12px;
+  }
+  .page-heading h1 {
+    font-size: 29px;
+  }
+  .page-description {
+    font-size: 11px;
+  }
+  .metric-label {
+    font-size: 10px;
+  }
+  .metric-value {
+    font-size: 31px;
+  }
+  .metric-card p {
+    font-size: 8px;
+  }
+  .attention-banner b {
+    font-size: 11px;
+  }
+  .attention-banner p {
+    font-size: 9px;
+  }
+  .attention-banner > button {
+    font-size: 10px;
+  }
+  .card-heading h2 {
+    font-size: 13px;
+  }
+  .card-heading p {
+    font-size: 9px;
+  }
+  .card-heading > .text-link {
+    font-size: 9px;
+  }
+  .segmented-tabs button {
+    font-size: 9px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .segmented-tabs button > span {
+    font-size: 8px;
+  }
+  .business-link {
+    min-width: 156px;
+  }
+  .business-link b {
+    font-size: 11px;
+  }
+  .business-link small {
+    font-size: 8px;
+  }
+  .badge {
+    font-size: 8px;
+  }
+  .review-table th {
+    font-size: 8px;
+  }
+  .table-amount {
+    font-size: 11px;
+  }
+  .amount-difference {
+    font-size: 7px;
+  }
+  .table-bottom {
+    font-size: 8px;
+  }
+  .activity-row > div > p:first-child {
+    font-size: 10px;
+  }
+  .activity-date {
+    font-size: 7px;
+  }
+  .activity-case {
+    font-size: 8px;
+  }
+  .readiness-legend > div {
+    font-size: 8px;
+  }
+  .readiness-chart small {
+    font-size: 7px;
+  }
+  .evidence-coverage > span {
+    font-size: 7px;
+  }
+  .evidence-coverage small {
+    font-size: 7px;
+  }
+  .deadline-row > span:nth-child(2) > b {
+    font-size: 9px;
+  }
+  .deadline-row > span:nth-child(2) > small {
+    font-size: 7px;
+  }
+  .library-stats {
+    font-size: 9px;
+  }
+  .source-tag {
+    font-size: 8px;
+  }
+  .case-title-line h1 {
+    font-size: 24px;
+  }
+  .case-summary-item > b {
+    font-size: 26px;
+  }
+  .case-summary-item > small {
+    font-size: 7px;
+  }
+  .case-summary-item > button {
+    font-size: 9px;
+  }
+  .case-business p {
+    font-size: 10px;
+  }
+  .case-tabs > button {
+    font-size: 10px;
+  }
+  .case-tabs {
+    gap: 17px;
+  }
+  .case-tabs > button > span {
+    font-size: 8px;
+  }
+  .case-meta,
+  .case-meta > button,
+  .case-meta b {
+    font-size: 9px;
+  }
+  .review-back,
+  .review-back > button {
+    font-size: 9px;
+  }
+  .sample-label {
+    font-size: 6px;
+  }
+  .calculation-table th {
+    font-size: 8px;
+  }
+  .calculation-table td {
+    font-size: 9px;
+  }
+  .calculation-table .subtotal-row td {
+    font-size: 9px;
+  }
+  .calculation-table .net-row td {
+    font-size: 10px;
+  }
+  .calculation-table .target-row td {
+    font-size: 9px;
+  }
+  .calculation-table .calculated-refund td {
+    font-size: 10px;
+  }
+  .source-chip {
+    font-size: 7px;
+  }
+  .calculation-description p {
+    font-size: 9px;
+  }
+  .calculation-label {
+    font-size: 7px;
+  }
+  .calculation-note p {
+    font-size: 8px;
+  }
+  .payment-flow small {
+    font-size: 7px;
+  }
+  .payment-flow button {
+    font-size: 7px;
+  }
+  .payment-result {
+    font-size: 9px;
+  }
+  .counterparties b {
+    font-size: 8px;
+  }
+  .counterparties small {
+    font-size: 6px;
+  }
+  .finding-title b {
+    font-size: 12px;
+  }
+  .finding > p {
+    font-size: 11px;
+  }
+  .finding-actions button {
+    font-size: 9px;
+  }
+  .decision-option b {
+    font-size: 11px;
+  }
+  .decision-option small {
+    font-size: 9px;
+  }
+  .checklist-row b {
+    font-size: 11px;
+  }
+  .checklist-row small {
+    font-size: 9px;
+  }
+  .decision-card textarea {
+    font-size: 11px;
+  }
+  .decision-card .form-field > span {
+    font-size: 10px;
+  }
+  .decision-footnote {
+    font-size: 9px;
+  }
+  .case-bottom-note,
+  .case-bottom-note > button {
+    font-size: 8px;
+  }
+  .form-field > input,
+  .form-field > select,
+  .form-field > textarea {
+    font-size: 13px;
+  }
+  .modal-header > div > p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .source-lines p {
+    font-size: 10px;
+  }
+  .source-lines > div > span {
+    font-size: 8px;
+  }
+  .source-meta {
+    font-size: 8px;
+  }
+  .source-edit .source-text-editor {
+    font-size: 11px;
+  }
+  .settings-row p {
+    font-size: 10px;
+  }
+  .settings-note p {
+    font-size: 10px;
+  }
+  .guide-content article p {
+    font-size: 11px;
+  }
+}

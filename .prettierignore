@@ -1,0 +1,9 @@
+# Generated, vendored, or starter-supplied files keep their original formatting.
+node_modules
+dist
+.next
+.wrangler
+drizzle
+components/ui
+scripts
+package-lock.json
